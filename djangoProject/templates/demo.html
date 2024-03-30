@@ -1,0 +1,17 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>柱形图实例</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+    <style>
+        .image-class {
+            width: 600px; /* 设置宽度 */
+            height: auto; /* 设置高度自适应 */
+        }
+    </style>
+</head>
+<body>
+    <img src="{% static 'bar.png' %}" alt="Bar Chart" class="image-class">
+</body>
+</html>
